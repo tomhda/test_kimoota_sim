@@ -1,0 +1,60 @@
+# キモオタ人生シミュレーター 必要画像リスト
+
+## シーン画像
+以下のシーン画像は、推奨サイズ 800x400px、JPG形式
+
+1. scene-room.jpg - 主人公の散らかった部屋（フィギュアやガジェットが散乱）
+2. scene-sns.jpg - スマホでSNSを見ている画面
+3. scene-anime-post.jpg - アニメ考察を投稿している画面
+4. scene-community.jpg - オタクコミュニティでの炎上場面
+5. scene-keyboard-warrior.jpg - 深夜にキーボードで必死に反論している様子
+6. scene-akiba.jpg - 秋葉原の街並み
+7. scene-figure-shop.jpg - フィギュアショップの内部
+8. scene-figure-bought.jpg - 等身大フィギュアを購入した場面
+9. scene-maid-cafe.jpg - メイド喫茶の内部
+10. scene-maid-talk.jpg - メイドと会話している場面
+11. scene-anime-lecture.jpg - アニメについて熱く語っている場面
+12. scene-gadget-shop.jpg - 電気街のガジェットショップ
+13. scene-outside.jpg - 外出時の街の風景
+14. scene-park.jpg - 公園の風景
+15. scene-girl-talk.jpg - 女性と話している場面
+16. scene-normal-talk.jpg - 普通に会話している場面
+17. scene-exchange-contact.jpg - 連絡先を交換している場面
+18. scene-message.jpg - メッセージを送っている画面
+19. scene-waiting.jpg - 返信を待っている場面
+20. scene-date-accept.jpg - デートの約束ができた喜びの表情
+21. scene-hide-otaku.jpg - オタク趣味を隠している場面
+22. scene-honest-otaku.jpg - 素直に趣味を話している場面
+23. scene-next-date.jpg - デートを重ねている場面
+24. scene-confession.jpg - 告白している場面
+25. scene-confession-result.jpg - 告白の結果を聞いている場面
+26. scene-happy-end.jpg - ハッピーエンドの場面
+27. scene-sleep-again.jpg - 二度寝している場面
+28. scene-night-anime.jpg - 深夜アニメを見ている場面
+29. scene-impulse-buy.jpg - 衝動買いしている場面
+
+## ガジェット画像
+以下のガジェット画像は、推奨サイズ 150x150px、PNG形式（透過背景）
+
+1. gadget-smartphone.png - 最新スマホ
+2. gadget-pc.png - LEDが光るゲーミングPC
+3. gadget-vr.png - VRヘッドセット
+4. gadget-camera.png - 一眼レフカメラ
+5. gadget-tablet.png - タブレット
+6. gadget-watch.png - スマートウォッチ
+7. gadget-drone.png - ドローン
+8. gadget-figure.png - プレミアムフィギュア
+9. gadget-dakimakura.png - 抱き枕
+
+## その他
+1. character.svg または character.png - 主人公のアイコン（150x150px、円形）
+
+## 画像の雰囲気について
+- 全体的に暗めの色調で、少し不気味で気持ち悪い雰囲気が望ましい
+- 主人公は太めで、メガネをかけた典型的な「チー牛」風の外見
+- 部屋の画像はアニメグッズやフィギュア、ガジェットが散乱している様子
+- 女性キャラクターは、アニメ風の可愛らしい見た目
+- 全体的にサイバーパンク風の緑色（#0f0）のアクセントを入れると統一感が出る
+
+## 画像の代替案
+実際の画像が用意できない場合は、現在のようにテキストベースで表示することも可能です。その場合は、シーンIDと時間帯の表示だけで十分機能します。
