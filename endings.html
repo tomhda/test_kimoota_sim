@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キモオタ人生シミュレーター - エンディング</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <div id="ending-screen" class="screen active">
+            <h2 id="ending-title" class="glitch-text"></h2>
+            <p id="ending-description"></p>
+            <div id="ending-stats">
+                <p>最終精神力: <span id="mental-stat"></span>%</p>
+                <p>最終社会性: <span id="social-stat"></span>%</p>
+                <p>最終オタク度: <span id="otaku-stat"></span>%</p>
+                <p>収集ガジェット数: <span id="gadget-stat"></span></p>
+                <p>経過日数: <span id="days-stat"></span>日</p>
+            </div>
+            <div id="share-options">
+                <button id="share-twitter" class="glitch-button">Share on X</button>
+                <button id="download-screenshot" class="glitch-button">スクリーンショットを保存</button>
+            </div>
+            <button id="restart-button" class="glitch-button" onclick="location.href='index.html'">もう一度プレイ</button>
+        </div>
+    </div>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="endings.js"></script>
+    <style>
+        #ending-screen {
+            padding: 40px;
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+        }
+        #ending-screen::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%);
+            z-index: 0;
+        }
+        #ending-screen > * {
+            position: relative;
+            z-index: 1;
+        }
+        #ending-title {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px #0f0;
+        }
+        #ending-description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        #ending-stats {
+            font-family: monospace;
+            font-size: 1.1em;
+            padding: 20px;
+            background: rgba(0, 30, 0, 0.5);
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        #ending-stats p {
+            margin: 10px 0;
+        }
+        #share-options {
+            margin-top: 30px;
+        }
+    </style>
+</body>
+</html>
